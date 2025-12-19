@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --color-primario: #308083;
+    --color-bloque: rgb(24, 39, 39);
+    --fuente-base: 'Arial', sans-serif;
+    --espaciado-mediano: 16px;
+    --color-fuente: rgb(237, 248, 252, 0.9);
+    --fuente-consola: 'Inconsolata', monospace;
+}
+
+.bloque
+{
+    background-color: var(--color-bloque);
+    border-radius: 1rem;
+    font-family: var(--fuente-consola);
+    padding: 15px;
+}
+
+body
+{
+    background: linear-gradient(var(--color-primario), var(--color-bloque));
+    font-family: var(--fuente-base);
+    color: var(--color-fuente);
+}
+
+nav
+{
+    background-color: var(--color-bloque);
+    padding: var(--espaciado-mediano);
+    margin-bottom: var(--espaciado-mediano);
+    top: 0;
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    align-items: end;
+}
+
+.logos 
+{
+    max-height: 300px;
+}
+
+.foto 
+{
+    max-height: 300px;
+    border-radius: 100%;
+}
+
+.logo-block
+{
+    max-height: 400px;
+}
+
+.titles
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 75px;
+}
+
+.contents
+{
+    font-size: 1.1rem;
+    height: 238px;
+}
+
+#sobre-mi
+{
+    background-color: var(--color-bloque);
+    width: inherit;
+    padding: var(--espaciado-mediano);
+}
+
+#sobre-mi .bloque
+{
+    background-image: linear-gradient(var(--color-primario), var(--color-bloque));
+    background-attachment: fixed;
+    border-radius: 1rem;
+    font-family: var(--fuente-consola);
+    padding: 15px;
+    display: flex;
+    flex-direction: column; 
+}
