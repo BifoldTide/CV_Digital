@@ -2,7 +2,6 @@
 
 * 
 {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -58,6 +57,7 @@ nav
 .logo-block
 {
     max-height: 400px;
+    margin: 10px;
 }
 
 .titles
@@ -65,12 +65,14 @@ nav
     font-size: 1.5rem;
     font-weight: bold;
     height: 75px;
+    margin: 10px 10px 0px 10px;
 }
 
 .contents
 {
     font-size: 1.1rem;
     height: 238px;
+    margin: 10px 10px 0px 10px;
 }
 
 #sobre-mi
